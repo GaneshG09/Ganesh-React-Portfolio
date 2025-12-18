@@ -32,16 +32,14 @@ body {
     color: var(--text);
     transition: background 0.5s ease, color 0.5s ease;
     overflow-x: hidden;
-    
+
 }
 
 /* --------------------------------
               NAVBAR
 ---------------------------------- */
 .navbar {
-    /* background-image: url(./tall-trees-forest-mountains-covered-with-fog.jpg); */
-    background-position: center;
-    background-size: cover;
+
     /* border: 1px solid white; */
     width: 100%;
     padding: 18px 8%;
@@ -65,9 +63,9 @@ body {
     display: flex;
     gap: 25px;
     list-style: none;
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
 
 }
 
@@ -94,11 +92,8 @@ body {
 .hero {
     /* background-image: url("C:\Users\Dell\Desktop\react portfolio\react-portfolio\public\images\tall-trees-forest-mountains-covered-with-fog.jpg"); */
     background-image: url("C:\Users\Dell\Desktop\react portfolio\react-portfolio\public\tall-trees.jpg");
-
-  background-size: cover;
-  background-position: center;
-    background-position: center;    
     background-size: cover;
+    background-position: center;
     height: 70vh;
     padding: 0 8%;
     display: flex;
@@ -123,7 +118,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-style: italic;
-    color:whitesmoke;
+    color: whitesmoke;
 
     /* /name section/ */
 }
@@ -142,9 +137,9 @@ body {
     text-align: center;
     /* font-size: medium; */
     transition: 0.3s ease;
-     font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
@@ -160,9 +155,9 @@ body {
     display: flex;
     justify-content: center;
     gap: 22px;
-     font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
 
 }
@@ -187,10 +182,10 @@ body {
     padding: 80px 8%;
     text-align: center;
     font-size: large;
-     font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
 }
 
 /* Glass Sections (About, Contact, Edu, Exp) */
@@ -210,7 +205,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 18px;
-    
+
 }
 
 .skill-card {
@@ -243,8 +238,9 @@ body {
     margin-top: 10px;
     border-radius: 10px;
     transition: 0.4s ease;
-    
+
 }
+
 .exp-card:hover {
 
     background-image: url("C:\Users\Dell\Desktop\react portfolio\react-portfolio\public\paper.jpg");
@@ -258,10 +254,10 @@ body {
 
 
 .exp-card ul {
-     font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
     margin-top: 12px;
     text-align: center;
     list-style: circle;
